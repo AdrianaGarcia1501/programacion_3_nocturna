@@ -1,4 +1,4 @@
-package programacion3.recursividad.practicaClase;
+package recursividadPracticaEnClase;
 
 public class E1_EjercicioPractica {
 
