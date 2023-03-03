@@ -24,7 +24,9 @@ public class E_2_Recorrer {
 		if(i <= matriz.length-1){
 			if(j <=matriz[i].length-1){	
 				
-				
+				String palabra = matriz[i][j];
+				if(verificarVocalesSeguidas(palabra) == true)
+					listasPalabras.add(palabra);
 				
 				if(j == matriz[i].length-1)	{
 					i++;
@@ -39,6 +41,12 @@ public class E_2_Recorrer {
 	}
 	
 	
+	private static boolean verificarVocalesSeguidas(String palabra) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
 	private static void recorrerMatriz(int[][] matriz, int i, int j){
 		if(i <= matriz.length-1){
 			if(j <=matriz[i].length-1){	
