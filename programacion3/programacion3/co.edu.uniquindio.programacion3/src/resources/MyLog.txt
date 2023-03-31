@@ -1,0 +1,6 @@
+mar 30, 2023 8:52:46 PM flujosDatos.EjemplosBasicos archivoRegistro
+GRAVE: Primer mensaje 1.1
+mar 30, 2023 8:52:46 PM flujosDatos.EjemplosBasicos archivoRegistro
+ADVERTENCIA: Segundo mensaje 2.1
+mar 30, 2023 8:52:46 PM flujosDatos.EjemplosBasicos archivoRegistro
+GRAVE: Tercer mensaje 3.1
