@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redvendedores:Marketplace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:redvendedores="http:///redvendedores.ecore">
+  <litsVendedores nombre="juan" theUsuario="//@listaUsuarios.0" listaMensajesOrigen="//@litsVendedores.0/@Mensaje.0" lisraMensajesDestino="//@litsVendedores.1/@Mensaje.0 //@litsVendedores.1/@Mensaje.1 //@litsVendedores.1/@Mensaje.2">
+    <listProductos/>
+    <listProductos/>
+    <listaChats/>
+    <Mensaje mensaje="hola" theVendedorOrigen="//@litsVendedores.0" theVendedorDestino="//@litsVendedores.1"/>
+  </litsVendedores>
+  <litsVendedores nombre="ana" theUsuario="//@listaUsuarios.1" listaMensajesOrigen="//@litsVendedores.1/@Mensaje.0" lisraMensajesDestino="//@litsVendedores.0/@Mensaje.0">
+    <Mensaje mensaje="hola, quemas" theVendedorOrigen="//@litsVendedores.1" theVendedorDestino="//@litsVendedores.0"/>
+    <Mensaje mensaje="conteste" theVendedorDestino="//@litsVendedores.0"/>
+    <Mensaje mensaje="????" theVendedorDestino="//@litsVendedores.0"/>
+  </litsVendedores>
+  <listaUsuarios nombreusuario="Juansito" contraseña="juan123" theEmpleado="//@litsVendedores.0"/>
+  <listaUsuarios nombreusuario="Anita" contraseña="ana12" theEmpleado="//@litsVendedores.1"/>
+</redvendedores:Marketplace>
