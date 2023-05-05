@@ -14,9 +14,9 @@ public class E_2_Recorrer {
 				{"hola","como"},
 				{"van","todos"}};
 		int i=0,j=0;
-//		recorrerMatriz(matriz,i,j);
-		ArrayList<String> listasPalabras = new ArrayList<String>();
-		recorrerMatriz(matrizPalabras, i, j, listasPalabras);
+		recorrerMatriz(matriz,i,j);
+//		ArrayList<String> listasPalabras = new ArrayList<String>();
+//		recorrerMatriz(matrizPalabras, i, j, listasPalabras);
 	}
 
 

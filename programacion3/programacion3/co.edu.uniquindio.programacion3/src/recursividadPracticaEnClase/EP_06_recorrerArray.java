@@ -22,7 +22,6 @@ public class EP_06_recorrerArray {
             System.out.println("Valor en la posición "+indice+" = "+array[indice]);
             mostrarArrayRecursivo(array, indice+1);
         }
-    	
          
     }
      

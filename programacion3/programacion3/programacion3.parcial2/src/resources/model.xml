@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="model.Universidad" id="Universidad0">
+  <void property="listaCovids">
+   <void method="add">
+    <object class="model.RegistroCovid">
+     <void property="codigo">
+      <int>123</int>
+     </void>
+     <void property="nombreComuna">
+      <string>Armenia</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.RegistroCovid">
+     <void property="codigo">
+      <int>123</int>
+     </void>
+     <void property="nombreComuna">
+      <string>Armenia</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
